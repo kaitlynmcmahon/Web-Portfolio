@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-<head>
 <meta charset="utf-8" />
+<head>
 <title>
-Katie McMahon's Projects
+Katie McMahon's Resume
 </title>
 <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
@@ -11,6 +11,7 @@ Katie McMahon's Projects
 <style>
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
 }
 h1 {
 	text-align: center;
@@ -26,7 +27,7 @@ h1 {
 h2 {
 	margin-top: 0em;
 	font-family: 'Amatic SC', cursive;
-	font-size: 2em;
+	font-size: 3em;
 	color: #FA7F67;
 	text-align: center;
 	border-bottom: 2px solid;
@@ -53,76 +54,57 @@ a:hover {
 	padding: .2em;
 	text-align: center;
 }
-#aboutbody {
+#resumebody {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: black;
 	float: left;
-	text-align: center;
-	font-size: 1.5em;
 }
-#classes {
+.titles {
 	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
 	font-size: 1em;
-	margin-left: 10%;
+	padding: 0em;
+}
+h3 {
 	color: #FA7F67;
+	font-size: 2em;
+	margin-bottom: 0em;
+	
 }
-#completed {
+#education {
 	float: left;
-	border: 1px solid;
-	padding: 1em;
 	margin: 2em;
-	height: 200px;
-	width: 300px;
+	width: 400px;
 }
-#next {
-	float: left;
-	border: 1px solid;
-	padding: 1em;
+#work {
+	float: right;
 	margin: 2em;
-	height: 200px;
-	width: 300px;
-}
-li {
-	list-style: none;
-	color: #CF3D49;
+	width: 400px;
 }
 </style>
 
 <body>
 <div id="wrapper">
-	<h1>Projects</h1>
+	<h1>Katie McMahon</h1>
 	<div id="navbar">
 		| <a href="index.html" id="link1">home</a> |
 		<a href="about.html" id="link2">about</a> |
 		<a href="mailto:katiemcmahon94@gmail.com" id="link3">contact</a> |
-		<a href="http://katiemcmahonme.tumblr.com/" target="_blank" id="link4">blog</a> |
+		<a href="http://katiemcmahonme.tumblr.com/" targrt="_blank" id="link4">blog</a> |
 		<a href="projects.html" id="link5">projects</a> |
 		<a href="resume.html" id="link6">resume</a> |
 	</div>
-	<div id="aboutbody">
-		<p>This is where I will put all of my latest projects and work that I complete during my time at St.Joe's. Currently this website is my first project within my major!</p> 
-		<p>More to come in classes like Web Design II and Digital Storytelling!</p>
+	<div id="resumebody">
+		<div id="education">
+			<h3>EDUCATION</h3>
+			<p>Saint Joseph's University | Philadelphia, PA</p>
+			<p>May 2016</p>
+		</div>
+		<div id="work">
+			<h3>WORK EXPERIENCE</h3>
+			<p>
+
 	</div>
-	<div id="classes">
-		<div id="completed">
-			<p>Completed Courses</p>
-			<ul>
-				<li>People, Planet & Profit: Sustainable Marketing</li>
-				<li>Communications Theory and Practice</li>
-				<li>Ethics in Communications</li>
-				<li>Introduction to Marketing</li>
-				<li>Integrated Marketing Communications</li>
-			</ul>
-		</div>
-		<div id="next">
-			<p>Relevant Courses Scheduled Spring 2015</p>
-			<ul>
-				<li>Marketing Research</li>
-				<li>Consumer & Buyer Behavior</li>
-				<li>Digital Storytelling</li>
-				<li>Civic Media</li>
-			</ul>
-		</div>
 </div>
 </body>
-</html
+</html>
